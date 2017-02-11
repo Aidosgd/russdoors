@@ -1,0 +1,175 @@
+body { 
+margin:0; 
+padding:0; 
+line-height:15px;
+font-family:  Arial; 
+border:0 ;  
+background-color:#fff7e1;}
+p { padding: 0 20px 5px 10px; }
+
+
+.topmenu {font-family:Arial; font-size:16px; color:#3c291c; text-align:right; float:right;}
+.topmenu a {font-family:Arial; color:#3c291c; text-decoration:none;}
+.topmenu a:hover{ text-decoration: underline; color:#3c291c;}
+.topmenu a:active{ text-decoration: underline; color:#3c291c;}
+
+.main_text { font-family:Arial; font-size:12px; color: #3c291c;  }
+.main_text a{ font-family:Arial; font-size:12px; color: #3c291c;  }
+
+.s_text { font-family:Arial; font-size:12px; color: #3c291c;  }
+.m_text { font-family:Arial; font-size:15px; color:#3c291c;  }
+.main_title {color: #3c291c; font-size: 20px;}
+.main_title1 {color: #3c291c; font-size: 20px;}
+.main_title1 a{color: #3c291c; font-size: 20px; text-decoration:none}
+.main_title1 a:hover {color: #f7ffb3; font-size: 20px;}
+.main_img {border:0;}
+
+
+.contact_table {font-family:Arial; font-size: 16px; color:#2c2c2c;}
+.title { padding-left: 20px; padding: 10px 20px 10px 20 px; max-width: 1200px; 
+font-family:Arial; font-size:18px; color:#3c291c; }
+
+.price { border-collapse:collapse; font-size:14px; }
+
+.footer { font-family:Arial; font-size:12px; color:#3c291c; text-align:center; background-image:url(images/footer.jpg); }
+.left_footer { float:left; padding:20px 0 0 30px; color:#3c291c; font-size:12px;}
+.right_footer { float:right;  padding:20px 30px 0 0; color:#3c291c;  font-size:12px; text-align:right;}
+
+.menu {font-family:Arial; font-size:16px; color:#3c291c; height:16px;  text-align:left; padding: 0 0 15px 65px;}
+.menu a {font-family:Arial; font-size:16px; color:#3c291c; text-decoration:none;}
+.menu a:hover{ text-decoration: underline; color:#f7ffb3;}
+.menu a:active{ text-decoration: underline;}
+
+.catalog_table { background-image:url(images/v.png); background-repeat:repeat-y;   }
+.catalog_table_x { background-image:url(images/t.png); background-repeat:repeat-x;}
+.catalog_name { background-image:url(images/name_bg.png); background-repeat:no-repeat; background-position:center;}
+/*************************
+******** Arrows **********
+**************************/	
+div.jMyCarousel .prev{
+	background: url(img/left.png) center center no-repeat;
+	width:47px;
+	height:61px;
+	border:0px;
+}
+
+
+div.jMyCarousel .next{
+	background: url(img/right.png) center center no-repeat;
+	width:40px;
+	height:61px;
+	border:0px;
+}
+
+
+/** carousel 1 **/
+div.jMyCarousel ul li{
+	;
+	margin:5px;
+	border:2px solid #fff;
+	line-height:0px;
+	padding:3px;
+}
+
+div.jMyCarousel ul li a{ /* in case of link */
+	display:block;
+	border:0px;
+}
+
+div.jMyCarousel ul li a img{
+	display:block;
+	border:0px;
+}
+
+
+/*************************
+******** doors **********
+**************************/	
+
+
+.left-right-border {
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+.doors_back {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 500px;
+	width: 900px;
+	margin-top: auto;
+}
+.doors_img {
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+.doors_img_fon {
+	background: #09F;
+	display: block;
+	height: 50px;
+	position: relative;
+}
+.doors_property {
+	height: 320px;
+	width: 330px;
+	background:  url(_doors_img_/back_01.png) no-repeat 70px;
+	margin-top: 0;
+	left: 600px;
+	padding-left: 30px;
+	float: left;
+	line-height: 10px;
+}
+.doors_property dl {
+	color: #3c291c;
+	font: bold 14px/15px Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+.doors_property dd {
+	height: 15px;
+	font: bold normal 15px Arial, Helvetica, sans-serif;
+	color: #3c291c;
+	text-align: left;
+	margin: 0px;
+	padding: 10px 0px 0px;
+	;
+	display: block;
+	width: 250px;
+	float: left;
+}
+.doors_property dt {
+	height: 16px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	display: block;
+	float: left;
+	width: 220px;
+}
+.doors_property a {
+	height: 15px;
+	width: 15px;
+	padding: 0px;
+	margin: 0px 3px 0px 0px;
+	border: 1px dotted #CCC;
+	float: left;
+}
+.doors_property a:hover {
+	border: 1px solid #F90;
+}
+
+.doors_description { font-size:12px;
+	width: 350px;
+	background:  ;
+	margin-top: 15px;
+	left: 600px;
+	padding-left: 50px;
+	float: left;
+	line-height: 20px;}
+	
+.doors_description_t{ font-family:Arial; font-size:14px; color:#3c291c; }	
+.doors_name{ font-family:Arial; font-size:18px; color:#3c291c; }

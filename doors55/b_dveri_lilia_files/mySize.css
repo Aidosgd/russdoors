@@ -1,0 +1,221 @@
+html, body {
+	background-color: #fff;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #999;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+	color: #666;
+}
+a:active {
+	color: #666;
+}
+a:visited {
+	color: #666;
+}
+a:hover {
+	color: #333;
+}
+
+.mySize {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	font-weight: 80%;
+}
+.mySize-small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.mySize_2 {
+	border-left-width: auto;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+}
+.mySize_tiny {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	font-weight: 80%;
+	line-height: 12px;
+}
+.mySize_door {
+	border-left-width: auto;
+	font: normal 11px/11px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.bgColor {
+	background-color: #FFF;
+	background-attachment: fixed;
+	background-image: url(_img/wood_green.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.vip {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCC;
+	background-color: #000;
+	border: 1px solid #666;
+	height: 12px;
+	width: 60px;
+}
+.vip_ok {
+	background-color: #000;
+	height: 20px;
+	width: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+	font-weight: bold;
+	border: 1px solid #000;
+}
+.mySize_2_white_14 {
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+}
+.mySize_2_b {
+	border-left-width: auto;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.left-right-border {
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+.doors_back {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 500px;
+	width: 900px;
+	margin-top: auto;
+}
+.doors_img {
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+.doors_img_fon {
+	background: #09F;
+	display: block;
+	height: 50px;
+	position: relative;
+}
+.doors_property {
+	height: 420px;
+	width: 300px;
+	background: url(_doors_img_/back_01.png) no-repeat 70px;
+	margin-top: 50px;
+	left: 600px;
+	padding-left: 60px;
+	float: left;
+	line-height: 10px;
+}
+.doors_property dl {
+	color: #666;
+	font: bold 14px/15px Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+.doors_property dd {
+	height: 15px;
+	font: bold normal 15px Arial, Helvetica, sans-serif;
+	color: #AAA;
+	text-align: left;
+	margin: 0px;
+	padding: 10px 0px 0px;
+	;
+	display: block;
+	width: 250px;
+	float: left;
+}
+.doors_property dt {
+	height: 16px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	display: block;
+	float: left;
+	width: 220px;
+}
+.doors_property a {
+	height: 15px;
+	width: 15px;
+	padding: 0px;
+	margin: 0px 3px 0px 0px;
+	border: 1px dotted #CCC;
+	float: left;
+}
+.doors_property a:hover {
+	border: 1px solid #F90;
+}
+.footer {
+	background: #FFF url(_doors_img_/bottom-mirror.gif) repeat;
+}
+.footer-L-R {
+	background: #FFF url(_doors_img_/bottom-mirror-L-R.jpg) repeat-x;
+}
+
+.button_back {
+	background: #F2F2F2;
+	height: 20px;
+	width: 80px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #CCC;
+}
+
+.text1 {
+	font: bold normal 14px Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.text1 a {
+	font: bold normal 14px Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.text1 a:hover {
+	font: bold normal 14px Arial, Helvetica, sans-serif;
+	color: #FFC;
+}
+
+.text2 {
+	color: #666;
+	font: bold normal 18px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.text3 {
+	text-align: justify;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+.text4 {
+	text-align: center;
+	color: #000;
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+}
+.text4 a {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.text4 a:hover {
+	color: #000;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: normal;
+}
